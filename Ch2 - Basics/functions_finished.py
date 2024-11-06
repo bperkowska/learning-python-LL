@@ -5,7 +5,7 @@
 
 
 # define a basic function
-def func1():
+def chnged_name():
     print("I am a function")
 
 # function that takes arguments
@@ -31,9 +31,9 @@ def multi_add(*args):
     return result
 
 
-func1()
-print(func1())
-print(func1)
+chnged_name()
+print(chnged_name())
+print(chnged_name)
 func2(10, 20)
 print(func2(10, 20))
 print(cube(3))

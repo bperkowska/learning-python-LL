@@ -9,7 +9,7 @@ myint = 5
 myfloat = 13.2
 mystr = "This is a string"
 mybool = True
-zmieninonalista = [0, 1, "two", 3.2, False]
+mylist = [0, 1, "two", 3.2, False]
 mytuple = (0, 1, 2)
 mydict = {"one" : 1, "two" : 2}
 
@@ -17,7 +17,7 @@ print(myint)
 print(myfloat)
 print(mystr)
 print(mybool)
-print(zmieninonalista)
+print(mylist)
 print(mytuple)
 print(mydict)
 
@@ -26,12 +26,12 @@ myint = "abc"
 print (myint)
 
 # to access a member of a sequence type, use []
-print(zmieninonalista[2])
+print(mylist[2])
 print(mytuple[1])
 # use slices to get parts of a sequence
-print(zmieninonalista[1:4:2])
+print(mylist[1:4:2])
 # you can use slices to reverse a sequence
-print(zmieninonalista[::-1])
+print(mylist[::-1])
 
 # dictionaries are accessed via keys
 print(mydict["one"]) 
@@ -55,6 +55,6 @@ def new_func(mystr):
 new_func(mystr)
 print (mystr)
 
-zmieninonalista.__getattribute__()
+mylist.__getattribute__()
 
 function

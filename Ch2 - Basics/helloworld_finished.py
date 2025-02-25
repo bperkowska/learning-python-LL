@@ -2,7 +2,8 @@
 # Example file for HelloWorld
 # LinkedIn Learning Python course by Joe Marini
 #
-
+x = 'check if I exist'
+print('Did you chceck if I exist?')
 
 def main():
     print("hello world!")
